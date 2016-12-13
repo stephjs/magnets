@@ -1,0 +1,47 @@
+body { 
+    background: #00ff00 url("http://www.lostsurfboards.net/wp-content/uploads/2015/06/corkBoardWP-1.jpg"); 
+  font-family: 'Anton', sans-serif;
+}
+
+.draggable, #magnetmaker, #trash { 
+  border: 1px solid black;
+  color: green;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 15px;
+  font-size: 30px;
+  margin: 30px;
+}
+
+#original {
+  font-size: 40px;
+}
+
+#original, button {
+  background-color: green;
+  color: white;
+  font-family: 'Anton', sans-serif;
+}
+
+#magnetmaker:hover, #trash:hover {
+  background-color: green;
+  color: white;
+}
+
+#trash {
+  float: right;
+}
+
+img {
+  width: 150px;
+}
+
+button:hover {
+  background-color: white;
+  color: green;
+}
+
+#magnetmaker, #trash {
+  width: 200px;
+}
